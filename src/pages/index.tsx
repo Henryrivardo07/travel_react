@@ -1,7 +1,11 @@
+import WasteLocation from "../components/map";
+
 const Homepage = () => {
   return (
     <>
-      <div className="">Map</div>
+      <div className="">
+        <WasteLocation />
+      </div>
     </>
   );
 };
